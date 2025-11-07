@@ -95,7 +95,7 @@ ColumnTransformer(
 
 ### Step 1: Clone Repository
 bash
-git clone https://github.com/Biscuitkru/CS5228_Project```
+git clone https://github.com/Biscuitkru/CS5228_Project
 
 ### Step 2: Create Virtual Environment
 bash
@@ -144,14 +144,14 @@ source venv/bin/activate
 
 1. **Temporal Trends:**
    - Resale prices increased ~40% from 2012-2024
-   - Significant spike during COVID-19 pandemic (2020-2022)
+   - Significant spike during COVID-19 pandemic 
 
 2. **Location Matters:**
    - Central region (Bishan, Toa Payoh) commands 20-30% premium
    - Proximity to MRT stations correlates with +10-15% price
 
 3. **Property Characteristics:**
-   - `floor_area_sqm` is strongest predictor (Pearson r = 0.78)
+   - `floor_area_sqm` is strongest predictor
    - Newer flats (lower `flat_age`) have higher prices
    - Higher floors (storey_range) command slight premium
 
@@ -165,7 +165,7 @@ source venv/bin/activate
 1. **Linear models fail** due to non-linear relationships
 2. **Tree-based ensembles excel** at capturing interactions
 3. **XGBoost's sequential learning** beats Random Forest's parallel trees
-4. **Regularization critical** to prevent overfitting (L1=0.15, L2=2.8)
+4. **Regularization critical** to prevent overfitting
 5. **Log-transform essential** for handling outliers and price skewness
 
 ---
