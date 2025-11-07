@@ -117,7 +117,7 @@ source venv/bin/activate
 1. **Open Jupyter Notebook**
    ```bash
    jupyter notebook CS5228_Project.ipynb
-   ```
+   
 
 2. **Execute Cells Sequentially**
    - **Cells 1-8:** Import libraries and load data
@@ -130,6 +130,7 @@ source venv/bin/activate
 
 ##  Project Structure
 
+```
 
 CS5228_Project/
 ├── README.md                              # Project documentation
@@ -159,7 +160,7 @@ CS5228_Project/
         ├── xgb_model.json               # XGBoost booster
         └── best_summary.json            # Hyperparameters
 
-
+```
 
 
 ### Key Performance Insights
