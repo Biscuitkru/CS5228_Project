@@ -128,41 +128,6 @@ source venv/bin/activate
 
 ---
 
-##  Project Structure
-
-```
-
-CS5228_Project/
-├── README.md                              # Project documentation
-├── CS5228_Project.ipynb                   # Main Jupyter notebook
-├── requirements.txt                       # Python dependencies
-├── submission.csv                         # Final predictions
-│
-├── data/                                  # Datasets
-│   ├── train.csv                         # Training data
-│   ├── test.csv                          # Test data
-│   ├── example-submission.csv            # Submission format
-│   └── auxiliary-data/                   # Additional datasets
-│       ├── sg-mrt-stations.csv
-│       ├── sg-primary-schools.csv
-│       ├── sg-secondary-schools.csv
-│       ├── sg-shopping-malls.csv
-│       ├── sg-hdb-block-details.csv
-│       └── sg-gov-hawkers.csv
-│
-├── models/                                # Saved models
-    ├── linear_regression.joblib
-    ├── polynomial_regression_optimized.joblib
-    ├── decision_tree.joblib
-    ├── bagging.joblib
-    └── xgb_best/                        # Best XGBoost model
-        ├── xgb_model.joblib             # Preprocessor
-        ├── xgb_model.json               # XGBoost booster
-        └── best_summary.json            # Hyperparameters
-
-```
-
-
 ### Key Performance Insights
 
 1. **Best RMSE:** ~25,400 SGD (on validation set)
